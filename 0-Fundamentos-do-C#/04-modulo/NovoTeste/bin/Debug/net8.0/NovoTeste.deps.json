@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "NovoTeste/1.0.0": {
+        "runtime": {
+          "NovoTeste.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NovoTeste/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

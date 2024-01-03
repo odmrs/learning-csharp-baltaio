@@ -1,0 +1,15 @@
+C:\Users\omarc\OneDrive\Área de Trabalho\learning-csharp-baltaio\0-Fundamentos-do-C#\04-modulo\NovoTeste\bin\Debug\net8.0\NovoTeste.exe
+C:\Users\omarc\OneDrive\Área de Trabalho\learning-csharp-baltaio\0-Fundamentos-do-C#\04-modulo\NovoTeste\bin\Debug\net8.0\NovoTeste.deps.json
+C:\Users\omarc\OneDrive\Área de Trabalho\learning-csharp-baltaio\0-Fundamentos-do-C#\04-modulo\NovoTeste\bin\Debug\net8.0\NovoTeste.runtimeconfig.json
+C:\Users\omarc\OneDrive\Área de Trabalho\learning-csharp-baltaio\0-Fundamentos-do-C#\04-modulo\NovoTeste\bin\Debug\net8.0\NovoTeste.dll
+C:\Users\omarc\OneDrive\Área de Trabalho\learning-csharp-baltaio\0-Fundamentos-do-C#\04-modulo\NovoTeste\bin\Debug\net8.0\NovoTeste.pdb
+C:\Users\omarc\OneDrive\Área de Trabalho\learning-csharp-baltaio\0-Fundamentos-do-C#\04-modulo\NovoTeste\obj\Debug\net8.0\NovoTeste.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\omarc\OneDrive\Área de Trabalho\learning-csharp-baltaio\0-Fundamentos-do-C#\04-modulo\NovoTeste\obj\Debug\net8.0\NovoTeste.AssemblyInfoInputs.cache
+C:\Users\omarc\OneDrive\Área de Trabalho\learning-csharp-baltaio\0-Fundamentos-do-C#\04-modulo\NovoTeste\obj\Debug\net8.0\NovoTeste.AssemblyInfo.cs
+C:\Users\omarc\OneDrive\Área de Trabalho\learning-csharp-baltaio\0-Fundamentos-do-C#\04-modulo\NovoTeste\obj\Debug\net8.0\NovoTeste.csproj.CoreCompileInputs.cache
+C:\Users\omarc\OneDrive\Área de Trabalho\learning-csharp-baltaio\0-Fundamentos-do-C#\04-modulo\NovoTeste\obj\Debug\net8.0\NovoTeste.sourcelink.json
+C:\Users\omarc\OneDrive\Área de Trabalho\learning-csharp-baltaio\0-Fundamentos-do-C#\04-modulo\NovoTeste\obj\Debug\net8.0\NovoTeste.dll
+C:\Users\omarc\OneDrive\Área de Trabalho\learning-csharp-baltaio\0-Fundamentos-do-C#\04-modulo\NovoTeste\obj\Debug\net8.0\refint\NovoTeste.dll
+C:\Users\omarc\OneDrive\Área de Trabalho\learning-csharp-baltaio\0-Fundamentos-do-C#\04-modulo\NovoTeste\obj\Debug\net8.0\NovoTeste.pdb
+C:\Users\omarc\OneDrive\Área de Trabalho\learning-csharp-baltaio\0-Fundamentos-do-C#\04-modulo\NovoTeste\obj\Debug\net8.0\NovoTeste.genruntimeconfig.cache
+C:\Users\omarc\OneDrive\Área de Trabalho\learning-csharp-baltaio\0-Fundamentos-do-C#\04-modulo\NovoTeste\obj\Debug\net8.0\ref\NovoTeste.dll
