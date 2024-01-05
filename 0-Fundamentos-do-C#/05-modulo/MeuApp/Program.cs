@@ -60,6 +60,22 @@ namespace MeuApp
 
             // var idade = 25;
 
+            // Console.WriteLine(idade);
+
+            // int num = 25;
+            float numPonto = 25.6f;
+            // numPonto = num;
+
+            // int pegandoNum = int.Parse("100"); // Só espera string.
+
+            // num = (int)numPonto; // Convertendo um float para inteiro.
+
+            int inteiro = 0;
+            Console.WriteLine(numPonto);
+            Console.WriteLine(numPonto.ToString());
+            // inteiro = int.Parse(numPonto.ToString()); // Estamos transformando o numPonto para string e depois no parse transformando para inteiro. Pórem da erro pois o valor está com um caracter especial.
+
+
         }
     }
 }
