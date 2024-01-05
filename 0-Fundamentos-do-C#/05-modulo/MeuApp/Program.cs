@@ -162,9 +162,32 @@ namespace MeuApp
 
             // Função com retorno
             // string name = ReturnName("Marcos", "Vinicius");
-            Console.WriteLine(ReturnName("Marcos", "Gostosos"));
+            // Console.WriteLine(ReturnName("Marcos", "Gostosos"));
 
-        }
+            // Value Types e Reference Types
+
+            // Value Types
+
+            int primeirValor = 10;
+            int segundoValor = primeirValor; // 10
+
+            primeirValor = 25;
+            
+            Console.WriteLine("Primeiro Valor: " + primeirValor);
+            Console.WriteLine("Segundo Valor : " + segundoValor);
+
+            // Reference types 
+
+            var arr  = new string[2]; // Crianção de um array
+            arr[0] = "Item 1"; // atribuição ao primeiro index de um array
+            var arr2 = arr; // Não cria um copia, tudo que for alterado no primeiro array, será modificado nesse também
+
+            Console.WriteLine(arr[0] + " " + arr2[0]);
+
+            arr[0] = "Novo item";
+
+            Console.WriteLine(arr[0]  + " " +  arr2[0]);
+        }   
 
         static void SayName(string name)
         {

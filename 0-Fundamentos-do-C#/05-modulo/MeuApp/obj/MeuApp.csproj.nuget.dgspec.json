@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/05-modulo/MeuApp/MeuApp.csproj": {}
+    "C:\\Users\\kimbo\\learning-csharp-baltaio\\0-Fundamentos-do-C#\\05-modulo\\MeuApp\\MeuApp.csproj": {}
   },
   "projects": {
-    "/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/05-modulo/MeuApp/MeuApp.csproj": {
+    "C:\\Users\\kimbo\\learning-csharp-baltaio\\0-Fundamentos-do-C#\\05-modulo\\MeuApp\\MeuApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/05-modulo/MeuApp/MeuApp.csproj",
+        "projectUniqueName": "C:\\Users\\kimbo\\learning-csharp-baltaio\\0-Fundamentos-do-C#\\05-modulo\\MeuApp\\MeuApp.csproj",
         "projectName": "MeuApp",
-        "projectPath": "/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/05-modulo/MeuApp/MeuApp.csproj",
-        "packagesPath": "/home/odmrs/.nuget/packages/",
-        "outputPath": "/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/05-modulo/MeuApp/obj/",
+        "projectPath": "C:\\Users\\kimbo\\learning-csharp-baltaio\\0-Fundamentos-do-C#\\05-modulo\\MeuApp\\MeuApp.csproj",
+        "packagesPath": "C:\\Users\\kimbo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kimbo\\learning-csharp-baltaio\\0-Fundamentos-do-C#\\05-modulo\\MeuApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/odmrs/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\kimbo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
