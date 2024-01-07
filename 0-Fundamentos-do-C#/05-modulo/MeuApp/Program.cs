@@ -192,20 +192,20 @@ namespace MeuApp
 
             // Structs
 
-           // Definição
+            // Definição
 
-        //    struct NameProduct{
-        //     // Propriedades
-        //     public int Id; // Definição de uma propriedade
-        //     public float Price;
-        //     public string Title;
+            //    struct NameProduct{
+            //     // Propriedades
+            //     public int Id; // Definição de uma propriedade
+            //     public float Price;
+            //     public string Title;
 
-        //     // Métodos
+            //     // Métodos
 
-        //     public float PriceInDolar(float dolar)
-        //     {
-        //         return Price * dolar;
-        //     }
+            //     public float PriceInDolar(float dolar)
+            //     {
+            //         return Price * dolar;
+            //     }
             
             // INtanciação de um tipo criado pela struct // Dentro da classe que irá utilizalo
 
@@ -217,21 +217,73 @@ namespace MeuApp
             // product.Title = "Mouse";
             // product.Price = 30.50f;
 
-           }
-        }   
+            // Método construtor  (Método com o mesmo nome da strutc)
 
-        static void SayName(string name)
+            // public Product(int id, string title, float price) // Facilita na criação do objeto
+            // {
+            //     Id = id;
+            //     Title = title;
+            //     Price = price;
+            // }
+
+            // Criação do objeto usando o metodo construtor
+
+            // var product = new Product(1, "Mouse", 35.32f);
+
+            var product = new Product(1, "Mouse", 50.83f, EEstadoCivil.Casado);
+
+            Console.WriteLine("Id: " + product.Id);
+            Console.WriteLine("Title: " + product.Title);
+            Console.WriteLine("Estado Civil: " + (int)product.EstadoCivil);
+            Console.WriteLine("Price: " + product.Price);
+            Console.WriteLine("Price in dolar: " + product.PriceInDolar(5.35f));
+
+           }   
+        // static void SayName(string name)
+        // {
+        //     Console.WriteLine(name);
+        // }
+
+        // static string ReturnName(
+        //     string first,
+        //     string last,
+        //     int? idade = null
+        // )
+        // {
+        //     return first + " " + last;
+        // }
+    }
+
+    struct Product
+    {
+        // Propriedades
+        public int Id;
+        public string Title;
+        public float Price;
+        public EEstadoCivil EstadoCivil;
+
+        // Métodos
+
+        public float PriceInDolar(float dolar)
         {
-            Console.WriteLine(name);
+            return Price * dolar;
         }
 
-        static string ReturnName(
-            string first,
-            string last,
-            int? idade = null
-        )
+        // Método Construtor
+
+        public Product(int id, string title, float price, EEstadoCivil estadoCivil)
         {
-            return first + " " + last;
+            Id = id;
+            Title = title;
+            Price = price;
+            EstadoCivil = estadoCivil;
         }
+    }
+
+    enum EEstadoCivil
+    {
+        Solteiro = 1,
+        Casado = 2,
+        Divorciado = 3
     }
 }
