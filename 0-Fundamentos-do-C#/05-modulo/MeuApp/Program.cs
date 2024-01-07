@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
+using System.Net.Http.Headers;
 using MeuApp.Teste;
 
 namespace MeuApp
@@ -154,7 +155,7 @@ namespace MeuApp
             //     value++;
             // } while (value <= 5);
             */
-            // Funções e Métodos
+            /* Funções e Métodos
 
             // Invocando uma função
 
@@ -168,25 +169,55 @@ namespace MeuApp
 
             // Value Types
 
-            int primeirValor = 10;
-            int segundoValor = primeirValor; // 10
+            // int primeirValor = 10;
+            // int segundoValor = primeirValor; // 10
 
-            primeirValor = 25;
+            // primeirValor = 25;
             
-            Console.WriteLine("Primeiro Valor: " + primeirValor);
-            Console.WriteLine("Segundo Valor : " + segundoValor);
+            // Console.WriteLine("Primeiro Valor: " + primeirValor);
+            // Console.WriteLine("Segundo Valor : " + segundoValor);
 
-            // Reference types 
+            // // Reference types 
 
-            var arr  = new string[2]; // Crianção de um array
-            arr[0] = "Item 1"; // atribuição ao primeiro index de um array
-            var arr2 = arr; // Não cria um copia, tudo que for alterado no primeiro array, será modificado nesse também
+            // var arr  = new string[2]; // Crianção de um array
+            // arr[0] = "Item 1"; // atribuição ao primeiro index de um array
+            // var arr2 = arr; // Não cria um copia, tudo que for alterado no primeiro array, será modificado nesse também
 
-            Console.WriteLine(arr[0] + " " + arr2[0]);
+            // Console.WriteLine(arr[0] + " " + arr2[0]);
 
-            arr[0] = "Novo item";
+            // arr[0] = "Novo item";
 
-            Console.WriteLine(arr[0]  + " " +  arr2[0]);
+            // Console.WriteLine(arr[0]  + " " +  arr2[0]);
+            */
+
+            // Structs
+
+           // Definição
+
+        //    struct NameProduct{
+        //     // Propriedades
+        //     public int Id; // Definição de uma propriedade
+        //     public float Price;
+        //     public string Title;
+
+        //     // Métodos
+
+        //     public float PriceInDolar(float dolar)
+        //     {
+        //         return Price * dolar;
+        //     }
+            
+            // INtanciação de um tipo criado pela struct // Dentro da classe que irá utilizalo
+
+            // var product = new Product();
+
+            // Preenchimento das propriedades
+
+            // product.Id = 1;
+            // product.Title = "Mouse";
+            // product.Price = 30.50f;
+
+           }
         }   
 
         static void SayName(string name)
