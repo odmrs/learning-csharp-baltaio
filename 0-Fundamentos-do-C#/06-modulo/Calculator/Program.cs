@@ -17,6 +17,20 @@ namespace Calculator
             return x1 + x2;
         }
 
+        static float Sub(float x1, float x2)
+        {
+            return x1 - x2;
+        }
+
+        static float Mult(float x1, float x2)
+        {
+            return x1 * x2;
+        }
+
+        static float Div(float x1, float x2)
+        {
+            return x1 / x2;
+        }
         static void Menu()
         {
             Console.WriteLine("What do you need?");
@@ -28,14 +42,36 @@ namespace Calculator
                 case 1:
                     Console.WriteLine("---------- SUM ----------");
                     Console.Write("\nEnter first number: ");
-                    float x1 = float.Parse(Console.ReadLine());
+                    float sum1 = float.Parse(Console.ReadLine());
                     Console.Write("Enter the second number: ");
-                    float x2 = float.Parse(Console.ReadLine());
-                    Console.WriteLine("The sum between: " + x1 + " + " + x2 + " = " + Sum(x1, x2));
+                    float sum2 = float.Parse(Console.ReadLine());
+                    Console.WriteLine($"The sum between: {sum1} + {sum2} = {Sum(sum1, sum2)}");
+                    break;
+                case 2:
+                    Console.WriteLine("---------- SUB ----------");
+                    Console.Write("\nEnter First number: ");
+                    float sub1 = float.Parse(Console.ReadLine());
+                    Console.Write("\nEnter the Second Number: ");
+                    float sub2 = float.Parse(Console.ReadLine());
+                    Console.WriteLine($"The sub between {sub1} - {sub2} = {Sub(sub1, sub2)}");
+                    break;
+                case 3:
+                    Console.WriteLine("---------- Mult ----------");
+                    Console.Write("\nEnter the First number: ");
+                    float mult1 = float.Parse(Console.ReadLine());
+                    Console.Write("Enter the Second number: ");
+                    float mult2 = float.Parse(Console.ReadLine());
+                    Console.WriteLine($"The mult between {mult1} * {mult2} = {Mult(mult1, mult2)}");
+                    break;
+                case 4:
+                    Console.WriteLine("---------- Div ----------");
+                    Console.Write("\nEnter the First number: ");
+                    float div1 = float.Parse(Console.ReadLine());
+                    Console.Write("Enter the Second Number: ");
+                    float div2 = float.Parse(Console.ReadLine());
+                    Console.WriteLine($"The division between {div1} / {div2} = {Div(div1, div2)}");
                     break;
             }
-
         }
     }
-
 }
