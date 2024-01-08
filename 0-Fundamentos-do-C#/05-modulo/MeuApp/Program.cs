@@ -189,8 +189,7 @@ namespace MeuApp
 
             // Console.WriteLine(arr[0]  + " " +  arr2[0]);
             */
-
-            // Structs
+            /* Structs
 
             // Definição
 
@@ -239,6 +238,8 @@ namespace MeuApp
             Console.WriteLine("Price in dolar: " + product.PriceInDolar(5.35f));
 
            }   
+           */
+        /*
         // static void SayName(string name)
         // {
         //     Console.WriteLine(name);
@@ -252,38 +253,40 @@ namespace MeuApp
         // {
         //     return first + " " + last;
         // }
+        */
+        
     }
 
-    struct Product
-    {
-        // Propriedades
-        public int Id;
-        public string Title;
-        public float Price;
-        public EEstadoCivil EstadoCivil;
+//     struct Product
+//     {
+//         // Propriedades
+//         public int Id;
+//         public string Title;
+//         public float Price;
+//         public EEstadoCivil EstadoCivil;
 
-        // Métodos
+//         // Métodos
 
-        public float PriceInDolar(float dolar)
-        {
-            return Price * dolar;
-        }
+//         public float PriceInDolar(float dolar)
+//         {
+//             return Price * dolar;
+//         }
 
-        // Método Construtor
+//         // Método Construtor
 
-        public Product(int id, string title, float price, EEstadoCivil estadoCivil)
-        {
-            Id = id;
-            Title = title;
-            Price = price;
-            EstadoCivil = estadoCivil;
-        }
-    }
+//         public Product(int id, string title, float price, EEstadoCivil estadoCivil)
+//         {
+//             Id = id;
+//             Title = title;
+//             Price = price;
+//             EstadoCivil = estadoCivil;
+//         }
+//     }
 
-    enum EEstadoCivil
-    {
-        Solteiro = 1,
-        Casado = 2,
-        Divorciado = 3
-    }
-}
+//     enum EEstadoCivil
+//     {
+//         Solteiro = 1,
+//         Casado = 2,
+//         Divorciado = 3
+//     }
+// }
