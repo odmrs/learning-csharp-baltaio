@@ -12,24 +12,52 @@ namespace Calculator
             Menu();
         }
 
-        static float Sum(float x1, float x2)
+        static void Sum()
         {
-            return x1 + x2;
+            Console.WriteLine("---------- SUM ----------");
+            Console.Write("\nEnter first number: ");
+            float x1 = float.Parse(Console.ReadLine());
+            Console.Write("Enter the second number: ");
+            float x2 = float.Parse(Console.ReadLine());
+            Console.WriteLine($"\nThe sum between: {x1} + {x2} = {x1 + x2}");
         }
 
-        static float Sub(float x1, float x2)
+        static void Sub()
         {
-            return x1 - x2;
+            Console.WriteLine("---------- SUB ----------");
+            Console.Write("\nEnter First number: ");
+            float sub1 = float.Parse(Console.ReadLine());
+            Console.Write("Enter the Second Number: ");
+            float sub2 = float.Parse(Console.ReadLine());
+            Console.WriteLine($"\nThe sub between {sub1} - {sub2} = {sub1 - sub2}");
         }
 
-        static float Mult(float x1, float x2)
+        static void Mult()
         {
-            return x1 * x2;
+            Console.WriteLine("---------- Mult ----------");
+            Console.Write("\nEnter the First number: ");
+            float mult1 = float.Parse(Console.ReadLine());
+            Console.Write("Enter the Second number: ");
+            float mult2 = float.Parse(Console.ReadLine());
+            Console.WriteLine($"The mult between {mult1} * {mult2} = {mult1 * mult2}");
         }
 
-        static float Div(float x1, float x2)
+        static void Div()
         {
-            return x1 / x2;
+            Console.WriteLine("---------- Div ----------");
+            Console.Write("\nEnter the First number: ");
+            float div1 = float.Parse(Console.ReadLine());
+            Console.Write("Enter the Second Number: ");
+            float div2 = float.Parse(Console.ReadLine());
+            Console.WriteLine($"\nThe division between {div1} / {div2} = {div1 / div2}");
+        }
+
+        static void Bye()
+        {
+            Console.WriteLine("Thank's for use my calculator !!!");
+            Thread.Sleep(2000);
+            Console.Clear();
+            System.Environment.Exit(0);
         }
         static void Menu()
         {
@@ -42,43 +70,11 @@ namespace Calculator
 
                 switch (answer)
                 {
-                    case 1:
-                        Console.WriteLine("---------- SUM ----------");
-                        Console.Write("\nEnter first number: ");
-                        float sum1 = float.Parse(Console.ReadLine());
-                        Console.Write("Enter the second number: ");
-                        float sum2 = float.Parse(Console.ReadLine());
-                        Console.WriteLine($"\nThe sum between: {sum1} + {sum2} = {Sum(sum1, sum2)}");
-                        break;
-                    case 2:
-                        Console.WriteLine("---------- SUB ----------");
-                        Console.Write("\nEnter First number: ");
-                        float sub1 = float.Parse(Console.ReadLine());
-                        Console.Write("Enter the Second Number: ");
-                        float sub2 = float.Parse(Console.ReadLine());
-                        Console.WriteLine($"\nThe sub between {sub1} - {sub2} = {Sub(sub1, sub2)}");
-                        break;
-                    case 3:
-                        Console.WriteLine("---------- Mult ----------");
-                        Console.Write("\nEnter the First number: ");
-                        float mult1 = float.Parse(Console.ReadLine());
-                        Console.Write("Enter the Second number: ");
-                        float mult2 = float.Parse(Console.ReadLine());
-                        Console.WriteLine($"The mult between {mult1} * {mult2} = {Mult(mult1, mult2)}");
-                        break;
-                    case 4:
-                        Console.WriteLine("---------- Div ----------");
-                        Console.Write("\nEnter the First number: ");
-                        float div1 = float.Parse(Console.ReadLine());
-                        Console.Write("Enter the Second Number: ");
-                        float div2 = float.Parse(Console.ReadLine());
-                        Console.WriteLine($"\nThe division between {div1} / {div2} = {Div(div1, div2)}");
-                        break;
-                    case 5:
-                        Console.WriteLine("Thank's for use my calculator !!!");
-                        Thread.Sleep(2000);
-                        Console.Clear();
-                        return;
+                    case 1: Sum(); break;
+                    case 2: Sub(); break;
+                    case 3: Mult(); break;
+                    case 4: Div(); break;
+                    case 5: Bye(); break;
                     default:
                         Console.WriteLine("None of the option exist");
                         break;
