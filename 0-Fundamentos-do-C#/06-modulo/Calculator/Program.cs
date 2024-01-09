@@ -1,6 +1,5 @@
 ﻿using System;
-using System.ComponentModel.Design;
-using System.Runtime.InteropServices;
+using System.Threading;
 
 namespace Calculator
 {
