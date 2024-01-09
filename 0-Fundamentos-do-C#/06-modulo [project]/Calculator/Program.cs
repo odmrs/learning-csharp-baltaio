@@ -55,7 +55,7 @@ namespace Calculator
         static void Bye()
         {
             Console.WriteLine("Thank's for use my calculator !!!");
-            Thread.Sleep(2000);
+            Thread.Sleep(10000);
             Console.Clear();
             System.Environment.Exit(0);
         }
