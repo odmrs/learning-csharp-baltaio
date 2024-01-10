@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Threading;
+
 namespace StopWatch
 {
   class Program
