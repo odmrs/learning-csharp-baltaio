@@ -14,15 +14,29 @@ namespace StopWatch
     {
       Console.Clear();
       Console.WriteLine("---------- StopWatch ----------\n\n");
-      Console.WriteLine("[s] - Seconds\n[m] - Minutes\n[e] - Exit");
+      Console.WriteLine("[Xs] - Seconds => 10s = 10 seconds\n[Xm] - Minutes => 1m = 1 minute\n[e]  - Exit");
       Console.Write("\n\nMake your choose: ");
-      string formatOfTime = Console.ReadLine();
+      
+      string formatOfTime = Console.ReadLine().ToLower();
+      char? lastChar = null;
+      int time = 0;
 
-      switch (formatOfTime)
+      if (formatOfTime.Length == 1)
       {
-        case "m": case "M": Minutes(); break;
-        case "s": case "S": Seconds(); break;
-        case "e": case "E": Exit(); break;
+        lastChar = char.Parse(formatOfTime.Substring(0, 1));
+      }
+
+      else
+      {
+        lastChar = char.Parse(formatOfTime.Substring(formatOfTime.Length - 1, 1));
+        time = int.Parse(formatOfTime.Substring(0, formatOfTime.Length - 1));
+      }
+
+      switch (lastChar)
+      {
+        case 'm': Minutes(time); break;
+        case 's': Seconds(time); break;
+        case 'e': Exit(); break;
         default: Error(); break;
       }
     }
@@ -47,33 +61,25 @@ namespace StopWatch
 
     static void End()
     {
-      Console.Clear();
-      Console.WriteLine("----- StopWatch End -----\n\n");
+      Console.WriteLine("\n\n----- StopWatch End -----\n");
       Console.WriteLine("[ENTER] to return to the menu");
       Console.Read();
       Menu();
     }
 
-    static void Minutes()
+    static void Minutes(int time)
     {
       Console.Clear();
       Console.WriteLine("----- StopWatch in Minutes -----\n\n");
-      Console.Write("Enter the number of minutes: ");
-      int numberOfMinutes = int.Parse(Console.ReadLine());
-      int time = numberOfMinutes * 60;
-
-      Start(time);
+      Start(time * 60);
       End();
     }
     
-    static void Seconds()
+    static void Seconds(int time)
     {
       Console.Clear();
-      Console.WriteLine("----- StopWatch in Seconds -----\n\n");
-      Console.Write("Enter the number of seconds: ");
-      int numberOfSeconds = int.Parse(Console.ReadLine());
-
-      Start(numberOfSeconds);
+      Console.WriteLine("----- StopWatch in Seconds -----");
+      Start(time);
       End();
     }
 
@@ -82,9 +88,9 @@ namespace StopWatch
       short currentTime = 0;
       while (time >= currentTime)
       { 
-        Console.WriteLine("----- StopWatch Running -----");
         int seconds = 1000;
         Console.Clear();
+        Console.WriteLine("----- StopWatch Running ----- \n\n");
         Console.WriteLine(currentTime);
         Thread.Sleep(seconds);
         currentTime++;
