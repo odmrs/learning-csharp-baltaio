@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uKl6dRjoo2P9W0Z05PVmbbgQq/d0gu60Hcdt4B3tVRhhoE/RNDTyn1xi5OF2ndwnQBpaYesEIBrw6SK9oXc/LQ==",
+  "dgSpecHash": "9JtrnlO4o9GWP3SCpziwp+VZxmXdLW3gfteTn30WXQpZ1JjpTy9H08I72ljTF4rOfzs5sm+PHMnGVdowGctCLg==",
   "success": true,
-  "projectFilePath": "/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/07-modulo-project/StopWatch/StopWatch.csproj",
+  "projectFilePath": "C:\\Users\\kimbo\\learning-csharp-baltaio\\0-Fundamentos-do-C#\\07-modulo-project\\StopWatch\\StopWatch.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

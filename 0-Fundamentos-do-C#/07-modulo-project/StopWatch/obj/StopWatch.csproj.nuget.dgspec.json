@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/07-modulo-project/StopWatch/StopWatch.csproj": {}
+    "C:\\Users\\kimbo\\learning-csharp-baltaio\\0-Fundamentos-do-C#\\07-modulo-project\\StopWatch\\StopWatch.csproj": {}
   },
   "projects": {
-    "/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/07-modulo-project/StopWatch/StopWatch.csproj": {
+    "C:\\Users\\kimbo\\learning-csharp-baltaio\\0-Fundamentos-do-C#\\07-modulo-project\\StopWatch\\StopWatch.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/07-modulo-project/StopWatch/StopWatch.csproj",
+        "projectUniqueName": "C:\\Users\\kimbo\\learning-csharp-baltaio\\0-Fundamentos-do-C#\\07-modulo-project\\StopWatch\\StopWatch.csproj",
         "projectName": "StopWatch",
-        "projectPath": "/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/07-modulo-project/StopWatch/StopWatch.csproj",
-        "packagesPath": "/home/odmrs/.nuget/packages/",
-        "outputPath": "/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/07-modulo-project/StopWatch/obj/",
+        "projectPath": "C:\\Users\\kimbo\\learning-csharp-baltaio\\0-Fundamentos-do-C#\\07-modulo-project\\StopWatch\\StopWatch.csproj",
+        "packagesPath": "C:\\Users\\kimbo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kimbo\\learning-csharp-baltaio\\0-Fundamentos-do-C#\\07-modulo-project\\StopWatch\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/odmrs/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\kimbo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
