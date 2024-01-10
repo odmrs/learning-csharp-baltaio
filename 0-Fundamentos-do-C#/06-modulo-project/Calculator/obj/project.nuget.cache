@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+zfxHlidu8eF1gU+W7aqCyl9UXfgssIC+7DM4hdzEORQeWTnrD8kkkpGQ329OB5RLi9w8S4/c0ERQh4Kow6Lcg==",
+  "dgSpecHash": "PNqw5wq3bDTWHsQ6GZ8EAxYm/1lFN/oAV9RDphZpTNF3DU1QdAhZL+3Z/NDtZbVK7YdbqW8Nt4Tst2TCDTA/GQ==",
   "success": true,
-  "projectFilePath": "/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/06-modulo [project]/Calculator/Calculator.csproj",
+  "projectFilePath": "/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/06-modulo-project/Calculator/Calculator.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

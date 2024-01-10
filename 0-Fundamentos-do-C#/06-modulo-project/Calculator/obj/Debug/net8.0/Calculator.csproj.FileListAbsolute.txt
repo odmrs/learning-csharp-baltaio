@@ -43,3 +43,18 @@ C:/Users/kimbo/learning-csharp-baltaio/0-Fundamentos-do-C#/06-modulo/Calculator/
 /home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/06-modulo [project]/Calculator/obj/Debug/net8.0/Calculator.pdb
 /home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/06-modulo [project]/Calculator/obj/Debug/net8.0/Calculator.genruntimeconfig.cache
 /home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/06-modulo [project]/Calculator/obj/Debug/net8.0/ref/Calculator.dll
+/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/06-modulo-project/Calculator/bin/Debug/net8.0/Calculator
+/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/06-modulo-project/Calculator/bin/Debug/net8.0/Calculator.deps.json
+/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/06-modulo-project/Calculator/bin/Debug/net8.0/Calculator.runtimeconfig.json
+/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/06-modulo-project/Calculator/bin/Debug/net8.0/Calculator.dll
+/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/06-modulo-project/Calculator/bin/Debug/net8.0/Calculator.pdb
+/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/06-modulo-project/Calculator/obj/Debug/net8.0/Calculator.GeneratedMSBuildEditorConfig.editorconfig
+/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/06-modulo-project/Calculator/obj/Debug/net8.0/Calculator.AssemblyInfoInputs.cache
+/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/06-modulo-project/Calculator/obj/Debug/net8.0/Calculator.AssemblyInfo.cs
+/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/06-modulo-project/Calculator/obj/Debug/net8.0/Calculator.csproj.CoreCompileInputs.cache
+/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/06-modulo-project/Calculator/obj/Debug/net8.0/Calculator.sourcelink.json
+/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/06-modulo-project/Calculator/obj/Debug/net8.0/Calculator.dll
+/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/06-modulo-project/Calculator/obj/Debug/net8.0/refint/Calculator.dll
+/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/06-modulo-project/Calculator/obj/Debug/net8.0/Calculator.pdb
+/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/06-modulo-project/Calculator/obj/Debug/net8.0/Calculator.genruntimeconfig.cache
+/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/06-modulo-project/Calculator/obj/Debug/net8.0/ref/Calculator.dll
