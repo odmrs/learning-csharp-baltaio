@@ -40,7 +40,21 @@ namespace StopWatch
         default: Error(); break;
       }
     }
-    
+   
+    static void PreStart()
+    {
+      Console.Clear();
+      Console.WriteLine("----- StopWatch Running ----- \n");
+      Console.Write("Ready...");
+      Thread.Sleep(800);
+      Console.Write("Set...");
+      Thread.Sleep(800);
+      Console.Write("GOOOOO!!!!!");
+      Thread.Sleep(1000);
+      Console.Clear();
+      Console.WriteLine("----- StopWatch Running ----- \n");
+    }
+
     static void Error()
     {
       Console.Clear();
@@ -85,12 +99,13 @@ namespace StopWatch
 
     static void Start(int time)
     {
-      short currentTime = 0;
+      short currentTime = 1;
+      PreStart();
       while (time >= currentTime)
       { 
         int seconds = 1000;
         Console.Clear();
-        Console.WriteLine("----- StopWatch Running ----- \n\n");
+        Console.WriteLine("----- StopWatch Running ----- \n");
         Console.WriteLine(currentTime);
         Thread.Sleep(seconds);
         currentTime++;
