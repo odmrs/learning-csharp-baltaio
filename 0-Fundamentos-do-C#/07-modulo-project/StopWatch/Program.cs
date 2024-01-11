@@ -1,6 +1,4 @@
 ﻿using System;
-using System.ComponentModel.DataAnnotations;
-using System.Runtime.InteropServices;
 using System.Threading;
 
 namespace StopWatch
