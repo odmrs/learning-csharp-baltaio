@@ -34,4 +34,16 @@ Seguindo a ordem do Curso do Balta.io
         <p><b>Menu</b><p>
         <img src="assets/StopWatch-project/menu-image.PNG" alt="Image reference for menu exemple of the stopwatch project">
     </details>
+    <details>
+        <summary>TextEditor</summary>
+        <h1> TextEditor</h1>
+        <p>Work with Write and Read Files, functions, loops, and more....</p>
+        <br>
+        <p><b>Edit File</b> / Create File<p>
+        <img src="assets/TextEditor-project/edit-exemple.gif" alt="Gif demonstrading the project TextEditor running and creating a new file">
+        <p><b>Open File</b><p>
+        <img src="assets/TextEditor-project/exit-exemple.gif" alt="Gif demonstrading the project TextEditor running and edit a existing file">
+        <p><b>Exit</b><p>
+        <img src="assets/TextEditor-project/exit-exemple.gif" alt="Image reference for exiting of program">
+    </details>
 </details>
