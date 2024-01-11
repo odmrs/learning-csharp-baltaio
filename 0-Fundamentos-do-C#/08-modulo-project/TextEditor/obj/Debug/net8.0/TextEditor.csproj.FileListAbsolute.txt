@@ -1,0 +1,15 @@
+/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/08-modulo-project/TextEditor/bin/Debug/net8.0/TextEditor
+/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/08-modulo-project/TextEditor/bin/Debug/net8.0/TextEditor.deps.json
+/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/08-modulo-project/TextEditor/bin/Debug/net8.0/TextEditor.runtimeconfig.json
+/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/08-modulo-project/TextEditor/bin/Debug/net8.0/TextEditor.dll
+/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/08-modulo-project/TextEditor/bin/Debug/net8.0/TextEditor.pdb
+/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/08-modulo-project/TextEditor/obj/Debug/net8.0/TextEditor.GeneratedMSBuildEditorConfig.editorconfig
+/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/08-modulo-project/TextEditor/obj/Debug/net8.0/TextEditor.AssemblyInfoInputs.cache
+/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/08-modulo-project/TextEditor/obj/Debug/net8.0/TextEditor.AssemblyInfo.cs
+/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/08-modulo-project/TextEditor/obj/Debug/net8.0/TextEditor.csproj.CoreCompileInputs.cache
+/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/08-modulo-project/TextEditor/obj/Debug/net8.0/TextEditor.sourcelink.json
+/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/08-modulo-project/TextEditor/obj/Debug/net8.0/TextEditor.dll
+/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/08-modulo-project/TextEditor/obj/Debug/net8.0/refint/TextEditor.dll
+/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/08-modulo-project/TextEditor/obj/Debug/net8.0/TextEditor.pdb
+/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/08-modulo-project/TextEditor/obj/Debug/net8.0/TextEditor.genruntimeconfig.cache
+/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/08-modulo-project/TextEditor/obj/Debug/net8.0/ref/TextEditor.dll
