@@ -54,8 +54,10 @@ Seguindo a ordem do Curso do Balta.io
         <p><b>Menu + HTML tags</b><p>
         <img src="assets/HtmlEditor-project/menu.gif" alt="Gif demonstrading the project HTML Text Editor running and showing the strings replaced">
         <p><b>All the functions in this video below</b> - Just a minute<p>   
-         <iframe width="420" height="315"
-            src="https://youtu.be/wyqu3ZKRQGg"
-        </iframe> 
+               
+
+https://github.com/odmrs/learning-csharp-baltaio/assets/143615905/63d7ef34-63fa-4d04-9d9d-24888c7366c2
+
+ 
     </details>
 </details>
