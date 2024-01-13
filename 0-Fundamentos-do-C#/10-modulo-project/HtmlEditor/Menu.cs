@@ -19,11 +19,11 @@ namespace HtmlEdit
             HandleMenuOption(option);
         }
 
-        public static void DrawScreen()
+        public static void DrawScreen(int x = 30, int y = 13)
         {
-            HorizontalLine(30);
-            VerticalLine(13, 30);
-            HorizontalLine(30);
+            HorizontalLine(x);
+            VerticalLine(y, x);
+            HorizontalLine(x);
         }
 
         public static void HorizontalLine(int horizontalLength = 30)
@@ -72,12 +72,28 @@ namespace HtmlEdit
         {
             switch (option)
             {
-                // case 0: Exit(); break;
+                case 0: Exit(); break;
                 case 1: Editor.Show(); break;
                 // case 2: Open.Show(); break;
                 default: Menu.Show(); break;
 
             }
+        }
+
+        public static void Exit()
+        {
+            Console.Clear();
+
+            Console.BackgroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.Black;
+            DrawScreen(40, 6);
+            Console.SetCursorPosition(3, 2);
+            Console.WriteLine("Exiting!!!");
+            Console.SetCursorPosition(3, 3);
+            Console.WriteLine("==========");
+            Console.SetCursorPosition(3, 5);
+            Console.Write("Thank's for use my Html Editor!");
+            Console.ReadLine();
         }
     }
 }
