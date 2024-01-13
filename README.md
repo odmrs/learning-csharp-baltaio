@@ -57,6 +57,5 @@ Seguindo a ordem do Curso do Balta.io
          <iframe width="420" height="315"
 src="https://youtu.be/wyqu3ZKRQGg">
 </iframe> 
-        </iframe>
     </details>
 </details>
