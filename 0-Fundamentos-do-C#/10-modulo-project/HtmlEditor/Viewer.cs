@@ -22,6 +22,7 @@ namespace HtmlEdit
             var toupper = new Regex(@"<\s*toupper[^>]*>(.*?)<\s*/\s*toupper>");
             var tolower = new Regex(@"<\s*tolower[^>]*>(.*?)<\s*/\s*tolower>");
             var mark = new Regex(@"<\s*mark[^>]*>(.*?)<\s*/\s*mark>");
+            var q = new Regex(@"<\s*q[^>]*>(.*?)<\s*/\s*q>");
             var words = text.Split(' ');
 
             for (var i = 0; i < words.Length; i++)
@@ -48,6 +49,11 @@ namespace HtmlEdit
                     Console.BackgroundColor = ConsoleColor.Yellow;
                     Console.Write(ReturningOnlyWord(words, i));
                     Console.BackgroundColor = ConsoleColor.White;
+                    Console.Write(" ");
+                }
+                else if (q.IsMatch(words[i]))
+                {
+                    Console.Write($"\"{ReturningOnlyWord(words, i)}\"");
                     Console.Write(" ");
                 }
                 else
