@@ -55,7 +55,7 @@ Seguindo a ordem do Curso do Balta.io
         <img src="assets/HtmlEditor-project/menu.gif" alt="Gif demonstrading the project HTML Text Editor running and showing the strings replaced">
         <p><b>All the functions in this video below</b> - Just a minute<p>   
          <iframe width="420" height="315"
-src="https://youtu.be/wyqu3ZKRQGg">
-</iframe> 
+            src="https://youtu.be/wyqu3ZKRQGg"
+        </iframe> 
     </details>
 </details>
