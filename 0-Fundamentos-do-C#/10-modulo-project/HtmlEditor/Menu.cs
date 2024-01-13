@@ -1,4 +1,5 @@
 using System;
+using System.Threading;
 
 namespace HtmlEdit
 {
@@ -74,7 +75,7 @@ namespace HtmlEdit
             {
                 case 0: Exit(); break;
                 case 1: Editor.Show(); break;
-                // case 2: Open.Show(); break;
+                case 2: Open.Show(); break;
                 default: Menu.Show(); break;
 
             }
@@ -93,7 +94,7 @@ namespace HtmlEdit
             Console.WriteLine("==========");
             Console.SetCursorPosition(3, 5);
             Console.Write("Thank's for use my Html Editor!");
-            Console.ReadLine();
+            Thread.Sleep(2000);
         }
     }
 }
