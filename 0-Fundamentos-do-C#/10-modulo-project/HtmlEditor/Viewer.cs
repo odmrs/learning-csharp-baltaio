@@ -1,4 +1,5 @@
 using System;
+using System.Reflection.Metadata.Ecma335;
 using System.Text.RegularExpressions;
 
 namespace HtmlEdit
@@ -18,6 +19,8 @@ namespace HtmlEdit
         public static void Replace(string text)
         {
             var strong = new Regex(@"<\s*strong[^>]*>(.*?)<\s*/\s*strong>");
+            var toupper = new Regex(@"<\s*toupper[^>]*>(.*?)<\s*/\s*toupper>");
+
             var words = text.Split(' ');
 
             for (var i = 0; i < words.Length; i++)
@@ -25,15 +28,14 @@ namespace HtmlEdit
                 if (strong.IsMatch(words[i]))
                 {
                     Console.ForegroundColor = ConsoleColor.Blue;
-                    Console.Write(
-                        words[i].Substring(
-                            words[i].IndexOf(">") + 1,
-                            (
-                                words[i].LastIndexOf("<") - 1) - words[i].IndexOf('>')
-                        )
-                    );
+                    Console.Write(ReturningOnlyWord(words, i));
                     Console.Write(" ");
                     Console.ForegroundColor = ConsoleColor.Black;
+                }
+                else if (toupper.IsMatch(words[i]))
+                {
+                    Console.Write(ReturningOnlyWord(words, i).ToUpper());
+                    Console.Write(" ");
                 }
                 else
                 {
@@ -42,6 +44,18 @@ namespace HtmlEdit
                     Console.Write(" ");
                 }
             }
+        }
+
+        public static string ReturningOnlyWord(string[] words, int index)
+        {
+            string justWord =
+                        words[index].Substring(
+                            words[index].IndexOf(">") + 1,
+                            (
+                                words[index].LastIndexOf("<") - 1) - words[index].IndexOf('>')
+                        );
+
+            return justWord;
         }
     }
 }

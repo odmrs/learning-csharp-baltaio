@@ -99,6 +99,7 @@ namespace HtmlEdit
             Console.Write("Thank's for use my Html Editor!");
             Thread.Sleep(2000);
             Console.Clear();
+            Environment.Exit(0);
         }
     }
 }
