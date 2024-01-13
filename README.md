@@ -53,7 +53,9 @@ Seguindo a ordem do Curso do Balta.io
         <br>
         <p><b>Menu + HTML tags</b><p>
         <img src="assets/HtmlEditor-project/menu.gif" alt="Gif demonstrading the project HTML Text Editor running and showing the strings replaced">
-        <p><b>More functions on youtube</b> Click and see! Many functions for just a few gifs<p>   
-        <p>Soon!</p>
+        <p><b>All the functions in this video below</b> - Just a minute<p>   
+        <video width="420" height="320" controls>
+            <source src="assets/HtmlEditor-project/htmlEditorAllFunctions.mp4" type="video/mp4">
+        </video>
     </details>
 </details>
