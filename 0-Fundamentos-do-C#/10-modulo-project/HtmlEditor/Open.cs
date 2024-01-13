@@ -25,6 +25,14 @@ namespace HtmlEdit
 
                 path = defaultPath + nameFile;
             }
+
+            See(path);
+            Menu.Show();
+
+        }
+
+        public static void See(string path)
+        {
             try
             {
                 using (var file = new StreamReader(path))
@@ -33,7 +41,6 @@ namespace HtmlEdit
                     userText.Append(file.ReadToEnd());
 
                     Viewer.Show(userText.ToString());
-                    Menu.Show();
                 }
             }
             catch (Exception e)

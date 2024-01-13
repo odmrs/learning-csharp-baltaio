@@ -64,8 +64,10 @@ namespace HtmlEdit
             Console.SetCursorPosition(3, 8);
             Console.WriteLine("2 - Open File");
             Console.SetCursorPosition(3, 9);
+            Console.WriteLine("3 - Documentation");
+            Console.SetCursorPosition(3, 10);
             Console.WriteLine("0 - Exit");
-            Console.SetCursorPosition(3, 11);
+            Console.SetCursorPosition(3, 12);
             Console.Write("Option: ");
         }
 
@@ -76,6 +78,7 @@ namespace HtmlEdit
                 case 0: Exit(); break;
                 case 1: Editor.Show(); break;
                 case 2: Open.Show(); break;
+                case 3: Documentation.Show(); break;
                 default: Menu.Show(); break;
 
             }
@@ -95,6 +98,7 @@ namespace HtmlEdit
             Console.SetCursorPosition(3, 5);
             Console.Write("Thank's for use my Html Editor!");
             Thread.Sleep(2000);
+            Console.Clear();
         }
     }
 }
