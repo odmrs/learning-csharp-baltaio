@@ -2,7 +2,7 @@
 Seguindo a ordem do Curso do Balta.io
 
 - Linux Mint + VScode + C# dev kit
-- Projetos tem a flag [-PROJEC] -> Total de Projetos [3]
+- Projetos tem a flag [-PROJEC] -> Total de Projetos [4]
 
 <details>
 <summary>Projects</summary>
@@ -45,5 +45,15 @@ Seguindo a ordem do Curso do Balta.io
         <img src="assets/TextEditor-project/open.gif" alt="Gif demonstrading the project TextEditor running and edit a existing file">
         <p><b>Exit</b><p>
         <img src="assets/TextEditor-project/exit.gif" alt="Image reference for exiting of program">
+    </details>
+    <details>
+        <summary>Html Editor</summary>
+        <h1> TextEditor</h1>
+        <p>Work with Write and Read Files, functions, loops, replace, manipulating strings, Regex and more....</p>
+        <br>
+        <p><b>Menu + HTML tags</b><p>
+        <img src="assets/HtmlEditor-project/menu.gif" alt="Gif demonstrading the project HTML Text Editor running and showing the strings replaced">
+        <p><b>More functions on youtube</b> Click and see! Many functions for just a few gifs<p>   
+        <p>Soon!</p>
     </details>
 </details>
