@@ -23,6 +23,8 @@ namespace HtmlEdit
             var tolower = new Regex(@"<\s*tolower[^>]*>(.*?)<\s*/\s*tolower>");
             var mark = new Regex(@"<\s*mark[^>]*>(.*?)<\s*/\s*mark>");
             var q = new Regex(@"<\s*q[^>]*>(.*?)<\s*/\s*q>");
+            var br = new Regex(@"<\s*br[^>]*>");
+
             var words = text.Split(' ');
 
             for (var i = 0; i < words.Length; i++)
@@ -55,6 +57,10 @@ namespace HtmlEdit
                 {
                     Console.Write($"\"{ReturningOnlyWord(words, i)}\"");
                     Console.Write(" ");
+                }
+                else if (br.IsMatch(words[i]))
+                {
+                    Console.Write("\n");
                 }
                 else
                 {

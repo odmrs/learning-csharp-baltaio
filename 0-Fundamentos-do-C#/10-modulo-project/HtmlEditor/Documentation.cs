@@ -57,6 +57,7 @@ namespace HtmlEdit
                 case 3: Open.See(Paths(3)); break;
                 case 4: Open.See(Paths(4)); break;
                 case 5: Open.See(Paths(5)); break;
+                case 6: Open.See(Paths(6)); break;
             }
         }
 
@@ -67,6 +68,7 @@ namespace HtmlEdit
             var markExemple = "/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/10-modulo-project/HtmlEditor/Exemples/markExemple.txt";
             var tolowerExemple = "/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/10-modulo-project/HtmlEditor/Exemples/tolowerExemple.txt";
             var qExemple = "/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/10-modulo-project/HtmlEditor/Exemples/qExemple.txt";
+            var brExemple = "/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/10-modulo-project/HtmlEditor/Exemples/brExemple.txt";
 
 
             switch (option)
@@ -76,6 +78,7 @@ namespace HtmlEdit
                 case 3: return tolowerExemple;
                 case 4: return markExemple;
                 case 5: return qExemple;
+                case 6: return brExemple;
             }
 
             return "error";
