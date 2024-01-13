@@ -20,7 +20,7 @@ namespace HtmlEdit
         {
             var strong = new Regex(@"<\s*strong[^>]*>(.*?)<\s*/\s*strong>");
             var toupper = new Regex(@"<\s*toupper[^>]*>(.*?)<\s*/\s*toupper>");
-
+            var mark = new Regex(@"<\s*mark[^>]*>(.*?)<\s*/\s*mark>");
             var words = text.Split(' ');
 
             for (var i = 0; i < words.Length; i++)
@@ -35,6 +35,13 @@ namespace HtmlEdit
                 else if (toupper.IsMatch(words[i]))
                 {
                     Console.Write(ReturningOnlyWord(words, i).ToUpper());
+                    Console.Write(" ");
+                }
+                else if (mark.IsMatch(words[i]))
+                {
+                    Console.BackgroundColor = ConsoleColor.Yellow;
+                    Console.Write(ReturningOnlyWord(words, i));
+                    Console.BackgroundColor = ConsoleColor.White;
                     Console.Write(" ");
                 }
                 else
