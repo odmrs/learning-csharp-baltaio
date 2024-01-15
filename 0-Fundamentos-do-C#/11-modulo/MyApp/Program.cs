@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace MyApp
 {
@@ -15,10 +16,33 @@ namespace MyApp
 
             // FOrmatation
 
-            var date = DateTime.Now;
-            var formated = string.Format("{0:yyyy:MM:dd}", date);
+            // var date = DateTime.Now;
+            // var formated = string.Format("{0:yyyy:MM:dd}", date);
 
-            Console.WriteLine(formated);
+            // Console.WriteLine(formated);
+
+            // Add
+
+            // var date = DateTime.Now;
+            // Console.WriteLine(date.AddDays(17)); // change the month automaticly
+
+            // Comparasion
+
+            // var date = DateTime.Now;
+
+            // if (date.Date == DateTime.Now.Date) // Comparasion entry days/month/and year not hours
+            // {
+            //     Console.WriteLine(1);
+            // }
+
+            // Globalization
+
+            // var de = new CultureInfo("de-DE");
+            // var thisMachine = CultureInfo.CurrentCulture;
+            // Console.WriteLine(DateTime.Now.ToString("D", thisMachine));
+
+
+
         }
     }
 }

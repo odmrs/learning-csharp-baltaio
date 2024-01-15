@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6uIwhPmF0ABlA3b2uE0SWGhKXg4TOhAlWsMYfvR17surUNvlhqOLKWIZdHuBKtD9i8zxjHvh0T7OWrhXeNZoBQ==",
+  "dgSpecHash": "6BVfgaGmwwcUNodeIHDkpMyUoGvfF2VkQT3lK3AEWA5sXp0dDMmW9Vo4U7kq6QBoV7uxI0hxyM7jQK3Axwq0eA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kimbo\\learning-csharp-baltaio\\0-Fundamentos-do-C#\\11-modulo\\MyApp\\MyApp.csproj",
+  "projectFilePath": "/home/odmrs/learning-csharp-baltaio/0-Fundamentos-do-C#/11-modulo/MyApp/MyApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
